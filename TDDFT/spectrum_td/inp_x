@@ -1,0 +1,21 @@
+CalculationMode = td
+UnitsOutput = atomic
+
+%Coordinates
+"O" |   0.   |  0.    |  0.224
+"H" |  -0.   |  1.457 | -0.896
+"H" |  -0.   | -1.457 | -0.896
+%
+
+Radius = 10
+Spacing = 0.435
+
+Tf = 10/eV
+dt = 0.002/eV
+
+TDPropagator = aetrs
+TDMaxSteps = Tf/dt
+TDTimeStep = dt
+
+TDDeltaStrength = 0.01/angstrom
+TDPolarizationDirection = 1

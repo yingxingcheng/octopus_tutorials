@@ -1,0 +1,17 @@
+# Octopus parser started
+ExperimentalFeatures = 0		# default
+Debug = 0		# default
+DebugTrapSignals = 0		# default
+stdout = "-"		# default
+stderr = "-"		# default
+WorkDir = "."		# default
+FlushMessages = 0		# default
+UnitsOutput = 0
+UnitsXYZFiles = 1		# default
+Dimensions = 3		# default
+SpinComponents = 1		# default
+CasidaSpectrumBroadening = 0.005		# default
+CasidaSpectrumEnergyStep = 0.001		# default
+CasidaSpectrumMinEnergy = 0		# default
+CasidaSpectrumMaxEnergy = 1		# default
+# Octopus parser ended

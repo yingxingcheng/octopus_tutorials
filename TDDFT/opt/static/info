@@ -1,0 +1,83 @@
+
+******************************** Grid ********************************
+Simulation Box:
+  Type = minimum
+  Radius  [A] =   5.292
+  Octopus will run in 3 dimension(s).
+  Octopus will treat the system as periodic in 0 dimension(s).
+Main mesh:
+  Spacing [A] = ( 0.230, 0.230, 0.230)    volume/point [A^3] =      0.01220
+  # inner mesh =      63515
+  # total mesh =      93799
+  Grid Cutoff [eV] =   709.646172    Grid Cutoff [Ry] =    52.158036
+**********************************************************************
+
+
+***************************** Symmetries *****************************
+Symmetry elements : (C2) 2*(sigma)
+Symmetry group    : C2v
+**********************************************************************
+
+
+**************************** Theory Level ****************************
+Input: [TheoryLevel = dft]
+
+Exchange-correlation:
+  Exchange
+    Slater exchange (LDA)
+    [1] P. A. M. Dirac, Math. Proc. Cambridge Philos. Soc. 26, 376 (1930)
+    [2] F. Bloch, Z. Phys. 57, 545 (1929)
+  Correlation
+    Perdew & Zunger (Modified) (LDA)
+    [1] J. P. Perdew and A. Zunger, Phys. Rev. B 23, 5048 (1981), modified to improve the matching between the low- and high-rs
+
+Input: [SICCorrection = sic_none]
+**********************************************************************
+
+SCF converged in    1 iterations
+
+Eigenvalues [eV]
+ #st  Spin   Eigenvalue      Occupation
+   1   --   -25.315482       2.000000
+   2   --   -12.902736       2.000000
+   3   --    -9.491823       2.000000
+   4   --    -7.276574       2.000000
+
+Energy [eV]:
+      Total       =      -463.52808254
+      Free        =      -463.52808254
+      -----------
+      Ion-ion     =       183.32444335
+      Eigenvalues =      -109.97323300
+      Hartree     =       571.17267897
+      Int[n*v_xc] =      -144.89566261
+      Exchange    =       -98.14099260
+      Correlation =       -12.46128394
+      vanderWaals =         0.00000000
+      Delta XC    =         0.00000000
+      Entropy     =         0.00000000
+      -TS         =        -0.00000000
+      Kinetic     =       322.91650777
+      External    =     -1430.33943609
+      Non-local   =      -116.11703217
+
+Dipole:                 [A]          [Debye]
+      <x> =    1.04932E-15      5.04009E-15
+      <y> =    3.76550E-01      1.80865E+00
+      <z> =    3.16257E-15      1.51905E-14
+
+Convergence:
+      abs_dens =  2.98483304E-09 ( 0.00000000E+00)
+      rel_dens =  3.73104130E-10 ( 1.00000000E-05)
+      abs_ev =  1.77635684E-15 ( 0.00000000E+00) [eV]
+      rel_ev =  4.39535390E-16 ( 0.00000000E+00)
+
+Forces on the ions [eV/A]
+ Ion                        x              y              z
+   1         O      -0.000000       0.982159      -0.000000
+   2         H       0.095686       0.187819      -0.000000
+   3         H      -0.095686       0.187819      -0.000000
+ ----------------------------------------------------------
+ Max abs force       0.095686       0.982159       0.000000
+   Total force      -0.000000       1.357797      -0.000000
+  Total torque       0.000000       0.000000      -0.000000

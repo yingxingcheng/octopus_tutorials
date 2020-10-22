@@ -1,0 +1,36 @@
+# Octopus parser started
+ExperimentalFeatures = 0		# default
+Debug = 0		# default
+DebugTrapSignals = 0		# default
+stdout = "-"		# default
+stderr = "-"		# default
+WorkDir = "."		# default
+FlushMessages = 0		# default
+UnitsOutput = 0
+UnitsXYZFiles = 1		# default
+PropagationSpectrumType = 1		# default
+SpectrumMethod = 1		# default
+PropagationSpectrumDampMode = 2		# default
+PropagationSpectrumTransform = 2		# default
+PropagationSpectrumStartTime = 0		# default
+PropagationSpectrumEndTime = -1		# default
+PropagationSpectrumEnergyStep = 0.000367493		# default
+PropagationSpectrumMaxEnergy = 0.734987		# default
+PropagationSpectrumDampFactor = -1		# default
+PropagationSpectrumSigmaDiagonalization = 0		# default
+PCMCalculation = 0		# default
+PCMLocalField = 0		# default
+PCMEoM = 0		# default
+PCMNonequilibrium = 0		# default
+PCMStaticEpsilon = 1		# default
+PCMCalculation = 0		# default
+PCMLocalField = 0		# default
+PCMEoM = 0		# default
+PCMNonequilibrium = 0		# default
+PCMStaticEpsilon = 1		# default
+PCMCalculation = 0		# default
+PCMLocalField = 0		# default
+PCMEoM = 0		# default
+PCMNonequilibrium = 0		# default
+PCMStaticEpsilon = 1		# default
+# Octopus parser ended

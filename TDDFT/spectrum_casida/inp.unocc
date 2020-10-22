@@ -1,0 +1,13 @@
+CalculationMode = unocc
+UnitsOutput = atomic
+
+Radius = 10
+Spacing = 0.435
+
+%Coordinates
+"O" |   0.   |  0.    |  0.224
+"H" |  -0.   |  1.457 | -0.896
+"H" |  -0.   | -1.457 | -0.896
+%
+
+ExtraStates = 10

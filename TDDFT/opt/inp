@@ -1,0 +1,15 @@
+FromScratch = yes
+CalculationMode = go
+UnitsOutput = eV_angstrom
+
+%Coordinates
+ 'O'  |  0.000000  | -0.553586  |  0.000000
+ 'H'  |  1.429937  |  0.553586  |  0.000000
+ 'H'  | -1.429937  |  0.553586  |  0.000000
+%
+
+Radius = 10
+Spacing = 0.435
+
+GOMethod = cg_bfgs
+GOTolerance = 0.05*eV/angstrom
